@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/eindwerk-JaimyVanGyseghem/precache-manifest.2afb50d0dec43f17de953d2372536893.js"
+  "/eindwerk-JaimyVanGyseghem/precache-manifest.1ee25c99e032efbc77646c3de19b293a.js"
 );
 
 self.addEventListener('message', (event) => {

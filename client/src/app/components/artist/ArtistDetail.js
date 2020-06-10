@@ -19,8 +19,8 @@ const ArtistDetail = ({artist}) => {
   }
   
   return (
-    <div className="container">
-      <Link onClick={() => backgroundDetailHome()} className="back" to={Routes.LANDING}><p>Go back </p> </Link>
+    <div id="paddingZero" className="container">
+      <Link onClick={() => backgroundDetailHome()}id="" className="back" to={Routes.LANDING}><p>Go back </p> </Link>
       {console.log(artist)}
       {!!artist
       ? 
@@ -29,12 +29,13 @@ const ArtistDetail = ({artist}) => {
              {backgroundDetail(artist.picture_back)}
             <div data-id={artist.uid}>
               <div className="row">
-              <div className="col-8 artistInfo">
+              <div id="paddingZero" className="col-md-8 artistInfo">
               <iframe src={'https://www.youtube.com/embed/'+ artist.yt} ></iframe>
               <h1>{artist.name}</h1>
               <h3>{artist.stage}</h3>
               </div>
-              <div className="col-4 sideInfo">
+              <h2 class="responsiveTitle">Latest albums</h2>
+              <div className="col-md-4 sideInfo">
                 <img src={artist.logo}></img>
                 <h2>Latest albums</h2>
                 <ul id='padding'>{artist.albums.map(x => <li>{x}</li>)}</ul>

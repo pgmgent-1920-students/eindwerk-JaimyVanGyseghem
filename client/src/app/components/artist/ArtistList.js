@@ -18,7 +18,7 @@ const ArtistList = () => {
 
     fetchData();
   }, [getMusic]);
-  
+
 
   return (
     <div className="container">
@@ -29,7 +29,7 @@ const ArtistList = () => {
       {!!artist
       ? artist.map((artist) => {
         return (
-          <div className="col-4 images" key={artist.uid}>
+          <div className="col-12 col-sm-6 col-lg-4 images" key={artist.uid}>
                <Link to={Routes.ARTIST_DETAIL.replace(':id', artist.uid)}>
               <img src={artist.picture_xl}></img>
               <h2>{artist.name}</h2>

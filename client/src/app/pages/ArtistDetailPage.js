@@ -24,7 +24,7 @@ const ArtistDetailPage = ({}) => {
 
   return (
    
-      <div className="container">
+      <div id="resposiveContainer" className="container">
           <ArtistDetail artist={artist} />
       </div>
   

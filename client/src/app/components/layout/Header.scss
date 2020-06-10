@@ -102,3 +102,15 @@ body {
         overflow: hidden;    
     }
 }
+
+@media screen and (max-width: 890px) {
+    .logo {
+        width: 130%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .logo {
+        width: 200%;
+    }
+}
