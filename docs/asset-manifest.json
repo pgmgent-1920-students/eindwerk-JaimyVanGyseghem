@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/eindwerk-JaimyVanGyseghem/static/css/main.420213b5.chunk.css",
+    "main.css": "/eindwerk-JaimyVanGyseghem/static/css/main.29fa6d34.chunk.css",
     "main.js": "/eindwerk-JaimyVanGyseghem/static/js/main.aeddec49.chunk.js",
     "main.js.map": "/eindwerk-JaimyVanGyseghem/static/js/main.aeddec49.chunk.js.map",
     "runtime-main.js": "/eindwerk-JaimyVanGyseghem/static/js/runtime-main.e41a1799.js",
@@ -8,9 +8,9 @@
     "static/js/2.15abf67d.chunk.js": "/eindwerk-JaimyVanGyseghem/static/js/2.15abf67d.chunk.js",
     "static/js/2.15abf67d.chunk.js.map": "/eindwerk-JaimyVanGyseghem/static/js/2.15abf67d.chunk.js.map",
     "index.html": "/eindwerk-JaimyVanGyseghem/index.html",
-    "precache-manifest.1ee25c99e032efbc77646c3de19b293a.js": "/eindwerk-JaimyVanGyseghem/precache-manifest.1ee25c99e032efbc77646c3de19b293a.js",
+    "precache-manifest.19c8082d63a4d11528c12a2ed150e6d3.js": "/eindwerk-JaimyVanGyseghem/precache-manifest.19c8082d63a4d11528c12a2ed150e6d3.js",
     "service-worker.js": "/eindwerk-JaimyVanGyseghem/service-worker.js",
-    "static/css/main.420213b5.chunk.css.map": "/eindwerk-JaimyVanGyseghem/static/css/main.420213b5.chunk.css.map",
+    "static/css/main.29fa6d34.chunk.css.map": "/eindwerk-JaimyVanGyseghem/static/css/main.29fa6d34.chunk.css.map",
     "static/js/2.15abf67d.chunk.js.LICENSE.txt": "/eindwerk-JaimyVanGyseghem/static/js/2.15abf67d.chunk.js.LICENSE.txt",
     "static/media/camping.jpg": "/eindwerk-JaimyVanGyseghem/static/media/camping.3bbf6387.jpg",
     "static/media/HomePage.scss": "/eindwerk-JaimyVanGyseghem/static/media/homebackground.7334309f.png",
@@ -23,7 +23,7 @@
   "entrypoints": [
     "static/js/runtime-main.e41a1799.js",
     "static/js/2.15abf67d.chunk.js",
-    "static/css/main.420213b5.chunk.css",
+    "static/css/main.29fa6d34.chunk.css",
     "static/js/main.aeddec49.chunk.js"
   ]
 }

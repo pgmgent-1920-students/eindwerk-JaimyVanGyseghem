@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a6285a0d500012b5059ba39d76394a28",
+    "revision": "6423e8551358df81e5ac818f45a2ada0",
     "url": "/eindwerk-JaimyVanGyseghem/index.html"
   },
   {
-    "revision": "683eb1da2c1832cc01ec",
-    "url": "/eindwerk-JaimyVanGyseghem/static/css/main.420213b5.chunk.css"
+    "revision": "965eb7fd902bc2df2ca3",
+    "url": "/eindwerk-JaimyVanGyseghem/static/css/main.29fa6d34.chunk.css"
   },
   {
     "revision": "5b67b0e960304bfaafb8",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/eindwerk-JaimyVanGyseghem/static/js/2.15abf67d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "683eb1da2c1832cc01ec",
+    "revision": "965eb7fd902bc2df2ca3",
     "url": "/eindwerk-JaimyVanGyseghem/static/js/main.aeddec49.chunk.js"
   },
   {
