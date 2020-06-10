@@ -51,11 +51,10 @@ const Header = ({children}) => {
             <li className="navCat rightSide">
               <NavLink to={Routes.TICKETS} className="nav-link" activeClassName="active">
               <p>Tickets</p>
-              <img src={tickets}></img>
+              <img onClick={{style: document.body.style.backgroundImage = '../../static/images/background.jpg'}} src={tickets}></img>
               </NavLink>
             </li> 
           </ul>
-         
           </div>
         </div>
       </nav>

@@ -13,9 +13,14 @@ const ArtistDetail = ({artist}) => {
     document.body.style.backgroundAttachment = "fixed";
     
   }
+
+  const backgroundDetailHome = () => {
+   return document.body.style.backgroundImage = 'url("../../static/images/background.png")';
+  }
+  
   return (
     <div className="container">
-      <Link className="back" to={Routes.HOME}>Go back</Link>
+      <Link onClick={() => backgroundDetailHome()} className="back" to={Routes.LANDING}><p>Go back </p> </Link>
       {console.log(artist)}
       {!!artist
       ? 

@@ -18,14 +18,10 @@ const ArtistList = () => {
 
     fetchData();
   }, [getMusic]);
-
-  const backgroundDetail = () => {
-    document.body.style.backgroundImage = `../static/images/homebackground.png`;
-  }
+  
 
   return (
     <div className="container">
-      {backgroundDetail()}
     <div className="button">
     <Link to={Routes.TICKETS}><button className="tickets">Buy Tickets</button></Link> 
     </div>
