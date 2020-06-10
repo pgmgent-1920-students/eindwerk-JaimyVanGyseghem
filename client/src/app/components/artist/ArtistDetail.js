@@ -15,7 +15,7 @@ const ArtistDetail = ({artist}) => {
   }
   return (
     <div className="container">
-      <Link className="back" to={Routes.HOME}><p onClick={{style: document.body.style.backgroundImage = '../static/images/homebackground.jpg'}}>Go back</p></Link>
+      <Link className="back" to={Routes.HOME}>Go back</Link>
       {console.log(artist)}
       {!!artist
       ? 
