@@ -1,5 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import { useFirestore } from '../../services/firebase/firestore.services';
+
 import './ticket.scss';
 
 const PokemonsList = () => {
@@ -8,19 +9,23 @@ const PokemonsList = () => {
     <div className="container ticketContainer">
       <div className="row">
 
-        <div className="col-3">
-        <div className="col-12">
+        <div className="col-12 col-md-6 col-lg-3">
+        <div className="leftSide col-12">
         <h2 className="ticketTitle">Day ticket</h2>
         <hr></hr>
         <ul>
           <li>Friday, Saturday or Sunday ticket</li>
           <li>10 MetalFest coupons</li>
         </ul>
+        <hr></hr>
+        <div class="centerbtn">
+        <button class="ticket">Buy ticket</button>
+        </div>
         </div>
         </div>
 
-        <div className="col-3">
-        <div className="col-12">
+        <div className="col-12 col-md-6 col-lg-3">
+        <div className="leftSide col-12">
         <h2 className="ticketTitle">Day ticket VIP</h2>
         <hr></hr>
         <ul>
@@ -29,11 +34,15 @@ const PokemonsList = () => {
           <li>MetalFest T-shirt</li>
           <li>Camping Ticket </li>
         </ul>
+        <hr></hr>
+        <div class="centerbtn">
+        <button class="ticket">Buy ticket</button>
+        </div>
         </div>
         </div>
 
-        <div className="col-3">
-        <div className="col-12">
+        <div className="col-12 col-md-6 col-lg-3">
+        <div className="rightSide col-12">
         <h2 className="ticketTitle">Combitickets</h2>
         <hr></hr>
         <ul>
@@ -42,11 +51,15 @@ const PokemonsList = () => {
           <li>Camping Ticket</li>
           <li>Camping Ticket </li>
         </ul>
+        <hr></hr>
+        <div class="centerbtn">
+        <button class="ticket">Buy ticket</button>
+        </div>
         </div>
         </div>
 
-        <div className="col-3">
-        <div className="col-12">
+        <div className="col-12 col-md-6 col-lg-3">
+        <div className="rightSide col-12">
         <h2 className="ticketTitle">Combitickets VIP </h2>
         <hr></hr>
         <ul>
@@ -57,6 +70,10 @@ const PokemonsList = () => {
           <li>Mystery goodyback </li>
           <li>Camping Ticket</li>
         </ul>
+        <hr></hr>
+        <div class="centerbtn">
+        <button class="ticket">Buy ticket</button>
+        </div>
         </div>
         </div>
         

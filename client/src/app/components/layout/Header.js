@@ -19,7 +19,7 @@ const Header = ({children}) => {
     <header className="app-header ">
       <nav className="navbar navbar-light navigation">
         <h1 className="centerLogo">
-          <Link to={Routes.LANDING}><img onClick={{style: document.body.style.backgroundImage = ``}} className="logo" src={logo}></img></Link>
+          <Link to={Routes.LANDING}><img onClick={{style: document.body.style.backgroundImage = '../static/images/homebackground.jpg'}} className="logo" src={logo}></img></Link>
         </h1>
         <button onClick={ev => handleToggle(ev)} className="hamburger" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <div></div>

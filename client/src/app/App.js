@@ -17,7 +17,7 @@ function App() {
       <FirebaseProvider>
         <AuthProvider>
           <FirestoreProvider>
-            <Router basename={'/react-firebase'}>
+            <Router basename={'/eindwerk-JaimyVanGyseghem'}>
               <Switch>
                 <RouteWithLayout exact path={Routes.LANDING} layout={ BaseLayout } component={ HomePage }/>
                 <Redirect from={Routes.HOME} to={Routes.LANDING}/>
