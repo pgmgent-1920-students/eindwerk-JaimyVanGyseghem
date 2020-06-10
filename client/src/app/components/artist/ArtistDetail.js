@@ -15,7 +15,7 @@ const ArtistDetail = ({artist}) => {
   }
 
   const backgroundDetailHome = () => {
-   return document.body.style.backgroundImage = 'url("../../static/images/background.png")';
+   return document.body.style.backgroundImage = 'url("https://jaimyvangyseghem.github.io/apiArtists/static/images/homebackground.png")';
   }
   
   return (
