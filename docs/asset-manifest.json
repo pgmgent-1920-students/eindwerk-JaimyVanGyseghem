@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/eindwerk-JaimyVanGyseghem/static/css/main.f034b894.chunk.css",
-    "main.js": "/eindwerk-JaimyVanGyseghem/static/js/main.587d7042.chunk.js",
-    "main.js.map": "/eindwerk-JaimyVanGyseghem/static/js/main.587d7042.chunk.js.map",
+    "main.js": "/eindwerk-JaimyVanGyseghem/static/js/main.2164b5bb.chunk.js",
+    "main.js.map": "/eindwerk-JaimyVanGyseghem/static/js/main.2164b5bb.chunk.js.map",
     "runtime-main.js": "/eindwerk-JaimyVanGyseghem/static/js/runtime-main.e41a1799.js",
     "runtime-main.js.map": "/eindwerk-JaimyVanGyseghem/static/js/runtime-main.e41a1799.js.map",
     "static/css/2.7b66f538.chunk.css": "/eindwerk-JaimyVanGyseghem/static/css/2.7b66f538.chunk.css",
     "static/js/2.629b5506.chunk.js": "/eindwerk-JaimyVanGyseghem/static/js/2.629b5506.chunk.js",
     "static/js/2.629b5506.chunk.js.map": "/eindwerk-JaimyVanGyseghem/static/js/2.629b5506.chunk.js.map",
     "index.html": "/eindwerk-JaimyVanGyseghem/index.html",
-    "precache-manifest.c4f9193052e49cae996d753e75bfd201.js": "/eindwerk-JaimyVanGyseghem/precache-manifest.c4f9193052e49cae996d753e75bfd201.js",
+    "precache-manifest.07459420f8a711c2912803a9f428ef09.js": "/eindwerk-JaimyVanGyseghem/precache-manifest.07459420f8a711c2912803a9f428ef09.js",
     "service-worker.js": "/eindwerk-JaimyVanGyseghem/service-worker.js",
     "static/css/2.7b66f538.chunk.css.map": "/eindwerk-JaimyVanGyseghem/static/css/2.7b66f538.chunk.css.map",
     "static/css/main.f034b894.chunk.css.map": "/eindwerk-JaimyVanGyseghem/static/css/main.f034b894.chunk.css.map",
@@ -27,6 +27,6 @@
     "static/css/2.7b66f538.chunk.css",
     "static/js/2.629b5506.chunk.js",
     "static/css/main.f034b894.chunk.css",
-    "static/js/main.587d7042.chunk.js"
+    "static/js/main.2164b5bb.chunk.js"
   ]
 }

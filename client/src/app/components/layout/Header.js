@@ -51,7 +51,7 @@ const Header = ({children}) => {
           <div className="navbarDesign">
           <ul className="allItems">
             <li className="navCat leftSide ">
-              <NavLink onClick={ev => handleToggle(ev)} to={Routes.HOME} className="nav-link" activeClassName="active">
+              <NavLink onClick={ev => handleToggle(ev)} to={Routes.LANDING} className="nav-link" activeClassName="active">
               <p>Line up</p>
               <img src={line_up}></img>
               </NavLink>
