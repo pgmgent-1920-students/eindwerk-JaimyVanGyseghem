@@ -41,9 +41,6 @@ HTML body {
            margin-left: 10px;
        }
 
-       &:last-of-type {
-           margin-bottom: 150px;
-       }
     }
 
     & .dropdown {
@@ -53,4 +50,8 @@ HTML body {
         margin-bottom: 25px;
         overflow: hidden;
       }
+}
+
+.footer {
+    margin-top: 150px;
 }
