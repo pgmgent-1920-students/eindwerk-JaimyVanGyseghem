@@ -18,8 +18,8 @@ const PokemonsList = () => {
           <li>10 MetalFest coupons</li>
         </ul>
         <hr></hr>
-        <div class="centerbtn">
-        <button class="ticket">Buy ticket</button>
+        <div className="centerbtn">
+        <button className="ticket">Buy ticket</button>
         </div>
         </div>
         </div>
@@ -35,8 +35,8 @@ const PokemonsList = () => {
           <li>Camping Ticket </li>
         </ul>
         <hr></hr>
-        <div class="centerbtn">
-        <button class="ticket">Buy ticket</button>
+        <div className="centerbtn">
+        <button className="ticket">Buy ticket</button>
         </div>
         </div>
         </div>
@@ -52,8 +52,8 @@ const PokemonsList = () => {
           <li>Camping Ticket </li>
         </ul>
         <hr></hr>
-        <div class="centerbtn">
-        <button class="ticket">Buy ticket</button>
+        <div className="centerbtn">
+        <button className="ticket">Buy ticket</button>
         </div>
         </div>
         </div>
@@ -71,8 +71,8 @@ const PokemonsList = () => {
           <li>Camping Ticket</li>
         </ul>
         <hr></hr>
-        <div class="centerbtn">
-        <button class="ticket">Buy ticket</button>
+        <div className="centerbtn">
+        <button className="ticket">Buy ticket</button>
         </div>
         </div>
         </div>

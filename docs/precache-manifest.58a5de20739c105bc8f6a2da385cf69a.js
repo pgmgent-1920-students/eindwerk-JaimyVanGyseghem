@@ -1,23 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7cb18a83eafa70f8e4441ff6ba01626a",
+    "revision": "7215b4bb79273b429d6b062eff853208",
     "url": "/eindwerk-JaimyVanGyseghem/index.html"
   },
   {
-    "revision": "4bb07b08271c13b656aa",
-    "url": "/eindwerk-JaimyVanGyseghem/static/css/main.29fa6d34.chunk.css"
+    "revision": "3af484bf4b1affba4566",
+    "url": "/eindwerk-JaimyVanGyseghem/static/css/2.7b66f538.chunk.css"
   },
   {
-    "revision": "5b67b0e960304bfaafb8",
-    "url": "/eindwerk-JaimyVanGyseghem/static/js/2.15abf67d.chunk.js"
+    "revision": "f36731d6940112841073",
+    "url": "/eindwerk-JaimyVanGyseghem/static/css/main.800ef09a.chunk.css"
+  },
+  {
+    "revision": "3af484bf4b1affba4566",
+    "url": "/eindwerk-JaimyVanGyseghem/static/js/2.a9fd2684.chunk.js"
   },
   {
     "revision": "007ad04fbdf73c9ea88306dc278d6468",
-    "url": "/eindwerk-JaimyVanGyseghem/static/js/2.15abf67d.chunk.js.LICENSE.txt"
+    "url": "/eindwerk-JaimyVanGyseghem/static/js/2.a9fd2684.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4bb07b08271c13b656aa",
-    "url": "/eindwerk-JaimyVanGyseghem/static/js/main.db505e95.chunk.js"
+    "revision": "f36731d6940112841073",
+    "url": "/eindwerk-JaimyVanGyseghem/static/js/main.966efa46.chunk.js"
   },
   {
     "revision": "b88f08eb0c140372ea4e",

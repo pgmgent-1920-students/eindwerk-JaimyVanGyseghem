@@ -1,17 +1,19 @@
 {
   "files": {
-    "main.css": "/eindwerk-JaimyVanGyseghem/static/css/main.29fa6d34.chunk.css",
-    "main.js": "/eindwerk-JaimyVanGyseghem/static/js/main.db505e95.chunk.js",
-    "main.js.map": "/eindwerk-JaimyVanGyseghem/static/js/main.db505e95.chunk.js.map",
+    "main.css": "/eindwerk-JaimyVanGyseghem/static/css/main.800ef09a.chunk.css",
+    "main.js": "/eindwerk-JaimyVanGyseghem/static/js/main.966efa46.chunk.js",
+    "main.js.map": "/eindwerk-JaimyVanGyseghem/static/js/main.966efa46.chunk.js.map",
     "runtime-main.js": "/eindwerk-JaimyVanGyseghem/static/js/runtime-main.e41a1799.js",
     "runtime-main.js.map": "/eindwerk-JaimyVanGyseghem/static/js/runtime-main.e41a1799.js.map",
-    "static/js/2.15abf67d.chunk.js": "/eindwerk-JaimyVanGyseghem/static/js/2.15abf67d.chunk.js",
-    "static/js/2.15abf67d.chunk.js.map": "/eindwerk-JaimyVanGyseghem/static/js/2.15abf67d.chunk.js.map",
+    "static/css/2.7b66f538.chunk.css": "/eindwerk-JaimyVanGyseghem/static/css/2.7b66f538.chunk.css",
+    "static/js/2.a9fd2684.chunk.js": "/eindwerk-JaimyVanGyseghem/static/js/2.a9fd2684.chunk.js",
+    "static/js/2.a9fd2684.chunk.js.map": "/eindwerk-JaimyVanGyseghem/static/js/2.a9fd2684.chunk.js.map",
     "index.html": "/eindwerk-JaimyVanGyseghem/index.html",
-    "precache-manifest.c27d2b7e739bdcaacc643c5b0abefd36.js": "/eindwerk-JaimyVanGyseghem/precache-manifest.c27d2b7e739bdcaacc643c5b0abefd36.js",
+    "precache-manifest.58a5de20739c105bc8f6a2da385cf69a.js": "/eindwerk-JaimyVanGyseghem/precache-manifest.58a5de20739c105bc8f6a2da385cf69a.js",
     "service-worker.js": "/eindwerk-JaimyVanGyseghem/service-worker.js",
-    "static/css/main.29fa6d34.chunk.css.map": "/eindwerk-JaimyVanGyseghem/static/css/main.29fa6d34.chunk.css.map",
-    "static/js/2.15abf67d.chunk.js.LICENSE.txt": "/eindwerk-JaimyVanGyseghem/static/js/2.15abf67d.chunk.js.LICENSE.txt",
+    "static/css/2.7b66f538.chunk.css.map": "/eindwerk-JaimyVanGyseghem/static/css/2.7b66f538.chunk.css.map",
+    "static/css/main.800ef09a.chunk.css.map": "/eindwerk-JaimyVanGyseghem/static/css/main.800ef09a.chunk.css.map",
+    "static/js/2.a9fd2684.chunk.js.LICENSE.txt": "/eindwerk-JaimyVanGyseghem/static/js/2.a9fd2684.chunk.js.LICENSE.txt",
     "static/media/camping.jpg": "/eindwerk-JaimyVanGyseghem/static/media/camping.3bbf6387.jpg",
     "static/media/HomePage.scss": "/eindwerk-JaimyVanGyseghem/static/media/homebackground.7334309f.png",
     "static/media/info.jpg": "/eindwerk-JaimyVanGyseghem/static/media/info.562de2fa.jpg",
@@ -22,8 +24,9 @@
   },
   "entrypoints": [
     "static/js/runtime-main.e41a1799.js",
-    "static/js/2.15abf67d.chunk.js",
-    "static/css/main.29fa6d34.chunk.css",
-    "static/js/main.db505e95.chunk.js"
+    "static/css/2.7b66f538.chunk.css",
+    "static/js/2.a9fd2684.chunk.js",
+    "static/css/main.800ef09a.chunk.css",
+    "static/js/main.966efa46.chunk.js"
   ]
 }

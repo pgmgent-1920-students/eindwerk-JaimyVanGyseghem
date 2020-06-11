@@ -15,8 +15,19 @@ const Header = ({children}) => {
     document.body.classList.toggle(`is-navigation-open`);
   };
 
+  const test = (ev) => {
+    window.addEventListener('load', function() {
+      let test = document.getElementsByClassName('navCat')[2];
+      test.classList.toggle('navigationClose');
+    })
+
+
+  }
+
+
   return (
-    <header className="app-header ">
+    <header className="app-header">
+      {test()}
       <nav className="navbar navbar-light navigation">
         <h1 className="centerLogo">
           <Link to={Routes.LANDING}><img onClick={{style: document.body.style.backgroundImage = '../static/images/homebackground.jpg'}} className="logo" src={logo}></img></Link>
@@ -29,27 +40,27 @@ const Header = ({children}) => {
         <div className="navbarContent collapse navbar-collapse" id="navbarSupportedContent">
           <div className="navbarDesign">
           <ul className="allItems">
-            <li className="navCat leftSide">
-              <NavLink to={Routes.HOME} className="nav-link" activeClassName="active">
+            <li className="navCat leftSide ">
+              <NavLink onClick={ev => handleToggle(ev)} to={Routes.HOME} className="nav-link" activeClassName="active">
               <p>Line up</p>
-              <img className="animate__animated animate__bounce" src={line_up}></img>
+              <img src={line_up}></img>
               </NavLink>
             
             </li> 
             <li className="navCat rightSide">
-              <NavLink to={Routes.INFO} className="nav-link" activeClassName="active">
+              <NavLink onClick={ev => handleToggle(ev)} to={Routes.INFO} className="nav-link" activeClassName="active">
               <p>Info</p>
               <img src={info}></img>
               </NavLink>
             </li> 
             <li className="navCat leftSide">
-              <NavLink to={Routes.CAMPING} className="nav-link" activeClassName="active">
+              <NavLink onClick={ev => handleToggle(ev)} to={Routes.CAMPING} className="nav-link" activeClassName="active">
               <p>Camping</p>
               <img src={camping}></img>
               </NavLink>
             </li>          
             <li className="navCat rightSide">
-              <NavLink to={Routes.TICKETS} className="nav-link" activeClassName="active">
+              <NavLink  onClick={ev => test(ev)} onClick={ev => handleToggle(ev)} to={Routes.TICKETS} className="nav-link" activeClassName="active">
               <p>Tickets</p>
               <img src={tickets}></img>
               </NavLink>

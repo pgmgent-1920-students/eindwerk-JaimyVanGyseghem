@@ -4,6 +4,8 @@ import { Link } from 'react-router-dom';
 import { useFirestore } from '../../services';
 import * as Routes from '../../routes';
 
+import {Wow} from 'wowjs';
+
 import './ArtistList.scss';
 
 const ArtistList = () => {
