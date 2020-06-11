@@ -17,8 +17,18 @@ const Header = ({children}) => {
 
   const test = (ev) => {
     window.addEventListener('load', function() {
-      let test = document.getElementsByClassName('navCat')[2];
-      test.classList.toggle('navigationClose');
+      let navigation = document.getElementsByClassName('navbarContent')[0];
+      let hamburger = document.getElementsByClassName('hamburger')[0].addEventListener('click', function() {
+        navigation.style.display = 'block';
+      })
+      for (let i = 0; i < 4; i++) {
+      let test = document.getElementsByClassName('navCat')[i];
+      test.addEventListener('click', function() {
+        navigation.style.display = 'none';
+      })
+    }
+     
+      
     })
 
 
@@ -60,7 +70,7 @@ const Header = ({children}) => {
               </NavLink>
             </li>          
             <li className="navCat rightSide">
-              <NavLink  onClick={ev => test(ev)} onClick={ev => handleToggle(ev)} to={Routes.TICKETS} className="nav-link" activeClassName="active">
+              <NavLink onClick={ev => handleToggle(ev)} to={Routes.TICKETS} className="nav-link" activeClassName="active">
               <p>Tickets</p>
               <img src={tickets}></img>
               </NavLink>
