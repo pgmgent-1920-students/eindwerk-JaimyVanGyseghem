@@ -5,6 +5,7 @@
 HTML body {
     background-color: black;
     background-image: url('../static/images/homebackground.png');
+    background-blend-mode: difference;
     background-size: cover;
     background-repeat: no-repeat;
     z-index: 1;

@@ -28,6 +28,10 @@
             & .centerbtn {
                 text-align: center;
 
+                & h2 {
+                    font-family: 'Metal mania';
+                }
+
                 & button {
                     margin: 0 auto;
 
@@ -87,6 +91,24 @@
     }
 }
 
+.basketImg {
+    width: 70px;
+    position: fixed;
+    top: 50px;
+    left: 120px;
+    display: none;
+}
+
+.basketInfo {
+    position: fixed;
+    top: 125px;
+    left: 120px;
+    display: none;
+}
+
+.blockMyPrice {
+    display: block;
+}
 @media screen and (max-width: 767px) {
     .ticketContainer {
         & .row {

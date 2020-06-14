@@ -2,8 +2,41 @@ import React, {useEffect, useState} from 'react';
 import { useFirestore } from '../../services/firebase/firestore.services';
 
 import './ticket.scss';
+import basket from '../../static/images/basket.png';
+import { TICKETS } from '../../routes';
 
 const PokemonsList = () => {
+  useEffect(() => {
+
+    const ticketBuy = () => {
+    let tickets = document.getElementsByClassName('ticket');
+    let price = document.getElementsByClassName('price');
+    let basketImg = document.getElementsByClassName('basketImg')[0];
+    let basketInfo = document.getElementsByClassName('basketInfo')[0];
+
+    let arr = [];
+    for (let i = 0; i < tickets.length; i++) {
+      tickets[i].addEventListener('click', function() {
+        arr.push(parseInt(price[i].innerHTML));
+        console.log(arr);
+        let data = localStorage.getItem(`ticket${i}`);
+        localStorage.setItem(`ticket${i}`, JSON.stringify(parseInt(arr)));
+
+        basketInfo.innerHTML += data;
+        
+        if (basketImg.style.display !=='block') {
+          basketImg.style.display = 'block';
+        }
+        basketImg.addEventListener('click', function() {
+          basketInfo.classList.toggle('blockMyPrice');
+        })
+        
+      })
+    }
+  }
+   ticketBuy();
+  }, []);
+
 
   return (
     <div className="container ticketContainer">
@@ -19,6 +52,7 @@ const PokemonsList = () => {
         </ul>
         <hr></hr>
         <div className="centerbtn">
+        <h2 className="price">120</h2>
         <button className="ticket">Buy ticket</button>
         </div>
         </div>
@@ -36,6 +70,7 @@ const PokemonsList = () => {
         </ul>
         <hr></hr>
         <div className="centerbtn">
+        <h2 className="price">190</h2>
         <button className="ticket">Buy ticket</button>
         </div>
         </div>
@@ -53,6 +88,7 @@ const PokemonsList = () => {
         </ul>
         <hr></hr>
         <div className="centerbtn">
+        <h2 className="price">280</h2>
         <button className="ticket">Buy ticket</button>
         </div>
         </div>
@@ -72,12 +108,16 @@ const PokemonsList = () => {
         </ul>
         <hr></hr>
         <div className="centerbtn">
+        <h2 className="price">320</h2>
         <button className="ticket">Buy ticket</button>
         </div>
         </div>
         </div>
         
       </div>
+
+      <img className="basketImg" src={basket}></img>
+      <p className="basketInfo"></p>
     </div>
   )
 };

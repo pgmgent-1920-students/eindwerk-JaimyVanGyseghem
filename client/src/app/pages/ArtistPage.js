@@ -1,6 +1,6 @@
 import React, { } from 'react';
 
-import { ArtistList } from '../components/artist';
+import { Campinglist } from '../components/camping';
 
 const ArtistPage = ({children}) => {
   return (
@@ -8,10 +8,10 @@ const ArtistPage = ({children}) => {
       <div className="container">
           <div className="row">
             <div className="col-12">
-              <h1>Bookmarks</h1>
-            </div>
+
           </div>
-        <ArtistList />
+          </div>
+        <Campinglist />
       </div>
     </div>
   );
