@@ -55,3 +55,16 @@ HTML body {
 .footer {
     margin-top: 150px;
 }
+
+@media screen and (max-width:980px) {
+    .info .arrow {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .dropbtn:last-of-type {
+        margin-bottom: 100px;
+    }
+}

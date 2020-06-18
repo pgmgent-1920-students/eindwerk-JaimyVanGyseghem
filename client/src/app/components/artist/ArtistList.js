@@ -21,7 +21,6 @@ const ArtistList = () => {
     fetchData();
   }, [getMusic]);
 
-
   return (
     <div className="container">
     <div className="button">

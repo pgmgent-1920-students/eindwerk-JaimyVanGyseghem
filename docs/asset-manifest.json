@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/eindwerk-JaimyVanGyseghem/static/css/main.aa35f1ae.chunk.css",
-    "main.js": "/eindwerk-JaimyVanGyseghem/static/js/main.eaf1d7a9.chunk.js",
-    "main.js.map": "/eindwerk-JaimyVanGyseghem/static/js/main.eaf1d7a9.chunk.js.map",
+    "main.css": "/eindwerk-JaimyVanGyseghem/static/css/main.f92b0d19.chunk.css",
+    "main.js": "/eindwerk-JaimyVanGyseghem/static/js/main.ce334b16.chunk.js",
+    "main.js.map": "/eindwerk-JaimyVanGyseghem/static/js/main.ce334b16.chunk.js.map",
     "runtime-main.js": "/eindwerk-JaimyVanGyseghem/static/js/runtime-main.e41a1799.js",
     "runtime-main.js.map": "/eindwerk-JaimyVanGyseghem/static/js/runtime-main.e41a1799.js.map",
     "static/css/2.7b66f538.chunk.css": "/eindwerk-JaimyVanGyseghem/static/css/2.7b66f538.chunk.css",
     "static/js/2.bd6c9873.chunk.js": "/eindwerk-JaimyVanGyseghem/static/js/2.bd6c9873.chunk.js",
     "static/js/2.bd6c9873.chunk.js.map": "/eindwerk-JaimyVanGyseghem/static/js/2.bd6c9873.chunk.js.map",
     "index.html": "/eindwerk-JaimyVanGyseghem/index.html",
-    "precache-manifest.1d0c20e921c0ac61e3a7022ed1a723fa.js": "/eindwerk-JaimyVanGyseghem/precache-manifest.1d0c20e921c0ac61e3a7022ed1a723fa.js",
+    "precache-manifest.e3e9aa320d93e55155f620d0b78def18.js": "/eindwerk-JaimyVanGyseghem/precache-manifest.e3e9aa320d93e55155f620d0b78def18.js",
     "service-worker.js": "/eindwerk-JaimyVanGyseghem/service-worker.js",
     "static/css/2.7b66f538.chunk.css.map": "/eindwerk-JaimyVanGyseghem/static/css/2.7b66f538.chunk.css.map",
-    "static/css/main.aa35f1ae.chunk.css.map": "/eindwerk-JaimyVanGyseghem/static/css/main.aa35f1ae.chunk.css.map",
+    "static/css/main.f92b0d19.chunk.css.map": "/eindwerk-JaimyVanGyseghem/static/css/main.f92b0d19.chunk.css.map",
     "static/js/2.bd6c9873.chunk.js.LICENSE.txt": "/eindwerk-JaimyVanGyseghem/static/js/2.bd6c9873.chunk.js.LICENSE.txt",
     "static/media/basket.png": "/eindwerk-JaimyVanGyseghem/static/media/basket.71501732.png",
     "static/media/camping.jpg": "/eindwerk-JaimyVanGyseghem/static/media/camping.3bbf6387.jpg",
@@ -27,7 +27,7 @@
     "static/js/runtime-main.e41a1799.js",
     "static/css/2.7b66f538.chunk.css",
     "static/js/2.bd6c9873.chunk.js",
-    "static/css/main.aa35f1ae.chunk.css",
-    "static/js/main.eaf1d7a9.chunk.js"
+    "static/css/main.f92b0d19.chunk.css",
+    "static/js/main.ce334b16.chunk.js"
   ]
 }

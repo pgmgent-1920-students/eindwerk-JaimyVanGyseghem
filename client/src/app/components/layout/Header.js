@@ -30,10 +30,7 @@ const Header = ({children}) => {
      
       
     })
-
-
   }
-
 
   return (
     <header className="app-header">

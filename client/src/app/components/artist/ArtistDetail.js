@@ -62,7 +62,7 @@ const ArtistDetail = ({artist}) => {
               </div>
 
               <div className="button detailButton">
-                <Link to={Routes.TICKETS}><button className="tickets">Buy Tickets</button></Link> 
+                <Link onClick={() => backgroundDetailHome()} to={Routes.TICKETS}><button className="tickets">Buy Tickets</button></Link> 
               </div>
 
             </div>

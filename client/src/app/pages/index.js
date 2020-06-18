@@ -1,4 +1,4 @@
-import ArtistPage from './ArtistPage';
+import ArtistPage from './Campingpage';
 import ArtistDetailPage from './ArtistDetailPage';
 import HomePage from './HomePage';
 import MessagesPage from './MessagesPage';

@@ -109,6 +109,18 @@
 .blockMyPrice {
     display: block;
 }
+
+.melding {
+    background: white;
+    color: black;
+    width: 30%;
+    margin: 0 auto;
+    display: none;
+    & p {
+        text-align: center;
+        font-size: 25px;
+    }
+}
 @media screen and (max-width: 767px) {
     .ticketContainer {
         & .row {

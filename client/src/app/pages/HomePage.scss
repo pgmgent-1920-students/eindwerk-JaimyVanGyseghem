@@ -79,6 +79,17 @@ HTML body {
     }
 }
 
+@media screen and (max-width: 575px) {
+    .images h2 {
+        opacity: 1;      
+    }
+
+    .images img {
+        filter: grayscale(0%)
+    }
+}
+
+
 @media screen and (max-width: 528px) {
     .tickets {
         font-size: 40px;
